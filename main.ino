@@ -6,15 +6,15 @@
 #include <HTTPClient.h>   //Including HTTPClient.h library to use all api 
 #include <WiFiClient.h> 
 #include "DHT.h" 
-const char* ssid = "Pixel 6a"; 
-const char* password ="12345678"; 
+const char* ssid = "YOUR_SSID"; 
+const char* password ="YOUR_PASSWORD"; 
 // Initialize Telegram BOT 
-#define BOTtoken "6772499993:AAEx9XnGYZl2sbfE12aKlfEbxs-Kp-BCN4E"  // your Bot 
+#define BOTtoken "YOUR_BOT_TOKEN"  // your Bot 
 Token (Get from Botfather) 
 // Use @myidbot to find out the chat ID of an individual or a group 
 // Also note that you need to click "start" on a bot before it can 
 // message you 
-#define CHAT_ID "5530582646" 
+#define CHAT_ID "YOUR_CHAT_ID" 
 WiFiClientSecure client; 
 UniversalTelegramBot bot(BOTtoken, client); 
 #define DHTPIN 16      
